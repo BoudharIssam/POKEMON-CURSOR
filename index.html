@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CURSOR</title>
+  <style>
+    html,
+    body {
+      overflow: hidden;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: url('/essets/pokeball.png'), auto;
+      background-color: rgb(255, 254, 254);
+      font-family: poppins, sans-serif;
+      gap: 100px;
+    }
+
+    a {
+      display: inline;
+      font-size: 11rem;
+      color: #000;
+      font-family: inherit;
+      font-weight: 800;
+      cursor: pointer;
+      position: relative;
+      border: none;
+      background: none;
+      text-transform: uppercase;
+      transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+      transition-duration: 400ms;
+      transition-property: color;
+    }
+
+    a:focus,
+    a:hover {
+      color: #000;
+
+    }
+
+    a:focus:after,
+    a:hover:after {
+      width: 100%;
+      left: 0%;
+    }
+
+    a:after {
+      content: "";
+      pointer-events: none;
+      bottom: 10px;
+      left: 50%;
+      position: absolute;
+      width: 0%;
+      height: 20px;
+      background-color: #000;
+      transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+      transition-duration: 300ms;
+      transition-property: width, left;
+    }
+  </style>
+</head>
+
+<body>
+  <a style="cursor: url('./essets/dresseur.png'), auto;">
+    IB
+  </a>
+  <a style="cursor: url('./essets/pikachu.png'), auto; ">
+    IB
+  </a>
+  <a style="cursor: url('./essets/charizard.png'), auto;">
+    IB
+  </a>
+  <a style="cursor: url('./essets/pokemon_squirtle_and_blastoise_1378.png'), auto;">
+    IB
+  </a>
+  <a style="cursor: url('./essets/venusaur.png') , auto;">
+    IB
+  </a>
+</body>
+</html>
