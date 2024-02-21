@@ -4,37 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CURSOR</title>
+  <title>Custom Cursor</title>
   <style>
     html,
     body {
-      overflow: hidden;
+      padding: 0;
+      margin: 0;
       width: 100%;
       height: 100vh;
+      cursor: url('/essets/pokeball.png'), auto;
+      background: url(/essets/bk-pokemon.png) no-repeat center center fixed;
+      background-size: cover;
+      overflow: hidden;
       display: flex;
       align-items: center;
       justify-content: center;
-      cursor: url('/essets/pokeball.png'), auto;
-      background-color: #fffefe;
-      font-family: poppins, sans-serif;
+      flex-wrap: wrap;
       gap: 100px;
+      font-family: poppins, sans-serif;
     }
 
     a {
       font-size: 11rem;
-      color: #000;
+      color: #000000ca;
       font-weight: 800;
       position: relative;
       text-transform: uppercase;
       transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
       transition-duration: 400ms;
       transition-property: color;
-    }
-
-    a:focus,
-    a:hover {
-      color: #000;
-
     }
 
     a:focus:after,
@@ -51,7 +49,7 @@
       position: absolute;
       width: 0%;
       height: 20px;
-      background-color: #000;
+      background-color: #000000ca;
       transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
       transition-duration: 300ms;
       transition-property: width, left;
@@ -76,4 +74,5 @@
     IB
   </a>
 </body>
+
 </html>
