@@ -1,19 +1,17 @@
-<!DOCTYPE html>
 <html lang="fr">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Custom Cursor</title>
   <style>
     html,
-    body {
+    body{
       padding: 0;
       margin: 0;
       width: 100%;
       height: 100vh;
       cursor: url('/essets/pokeball.png'), auto;
-      background: url(/essets/bk-pokemon.png) no-repeat center center fixed;
+      background: url('/essets/bk-pokemon.png') no-repeat center center fixed;
       background-size: cover;
       overflow: hidden;
       display: flex;
@@ -24,12 +22,12 @@
       font-family: poppins, sans-serif;
     }
 
-    a {
+    a{
       font-size: 11rem;
       color: #000000ca;
       font-weight: 800;
+      text-decoration: none;
       position: relative;
-      text-transform: uppercase;
       transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
       transition-duration: 400ms;
       transition-property: color;
@@ -39,6 +37,7 @@
     a:hover:after {
       width: 100%;
       left: 0%;
+      
     }
 
     a:after {
@@ -56,23 +55,11 @@
     }
   </style>
 </head>
-
 <body>
-  <a style="cursor: url('./essets/dresseur.png'), auto;">
-    IB
-  </a>
-  <a style="cursor: url('./essets/pikachu.png'), auto; ">
-    IB
-  </a>
-  <a style="cursor: url('./essets/charizard.png'), auto;">
-    IB
-  </a>
-  <a style="cursor: url('./essets/blastoise.png'), auto;">
-    IB
-  </a>
-  <a style="cursor: url('./essets/venusaur.png') , auto;">
-    IB
-  </a>
+  <a style="cursor: url('./essets/dresseur.png'), auto" href="#">IB</a>
+  <a style="cursor: url('./essets/pikachu.png'), auto" href="#">IB</a>
+  <a style="cursor: url('./essets/charizard.png'), auto" href="#">IB</a>
+  <a style="cursor: url('./essets/blastoise.png'), auto" href="#">IB</a>
+  <a style="cursor: url('./essets/venusaur.png'), auto" href="#">IB</a>
 </body>
-
 </html>
