@@ -110,11 +110,7 @@ Analyse détaillée du code :
 
   - `color: #000;` définit la couleur du texte.
 
-  - `font-family: inherit;` utilise la même police que son parent.
-
   - `font-weight: 800;` définit l'épaisseur de la police.
-
-  - `cursor: pointer;` affiche le curseur en tant que pointeur au survol.
 
   - `position: relative;` permet de positionner l'élément relativement à sa position normale.
 
