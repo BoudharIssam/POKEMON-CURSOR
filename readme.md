@@ -82,21 +82,17 @@ Analyse détaillée du code :
 
       font-size: 11rem;
 
-      color: #000;
-
-      font-family: inherit;
+      color: #000000ca;
 
       font-weight: 800;
 
-      cursor: pointer;
-
       position: relative;
-
-      border: none;
 
       background: none;
 
       text-transform: uppercase;
+
+      text-decoration: none;
 
       transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
 
